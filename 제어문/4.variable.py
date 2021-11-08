@@ -1,12 +1,29 @@
-print(2000000 + 3000000)
+name = "곽준재"
 
-a = 456 + 456
-print(a)
+if name == "곽준재":
+    print ("맞음")
+else:
+    print("틀림")
 
-b = 1.5 + 0.5
-print(b)
+actorlist =['이정재','정호연','알리']
 
-print(a + b)
+if '이정재' in actorlist:
+    print("오징어게임")
+else :
+    print("먼지모름")
 
-c = a + b
-print(c)
+a = 1
+b = 0
+
+if a and b:
+    print("and")
+elif a or b:
+    print("or")
+elif a == 0:
+    print("a = 0")
+elif b == 1:
+    print("b = 1")
+elif not a:
+    print("not a")
+else:
+    print("OR")
